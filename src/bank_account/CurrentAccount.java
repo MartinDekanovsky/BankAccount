@@ -17,14 +17,14 @@ public class CurrentAccount extends BankAccount {
     private static final double TRANSACTION_FEE = 0.20;
 
     /**
-     * Constructor for creating a new current bank account with zero initial balance.
+     * Constructor for opening a new current bank account with zero initial balance.
      */
     public CurrentAccount() {
         numberOfTransactions = 0;
     }
 
     /**
-     * Constructor for creating a new current bank account with specified initial balance.
+     * Constructor for opening a new current bank account with specified initial balance.
      *
      * @param balance Account initial balance.
      */

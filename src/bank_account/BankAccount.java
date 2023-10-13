@@ -11,14 +11,14 @@ public class BankAccount {
     private double balance;
 
     /**
-     * Constructor for creating a new bank account with zero initial balance.
+     * Constructor for opening a new bank account with zero initial balance.
      */
     public BankAccount() {
         balance = 0;
     }
 
     /**
-     * Constructor for creating a new bank account with specified initial balance.
+     * Constructor for opening a new bank account with specified initial balance.
      *
      * @param balance Account initial balance.
      */
